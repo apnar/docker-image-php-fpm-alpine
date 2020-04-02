@@ -8,5 +8,6 @@ RUN apk update \
  && docker-php-ext-enable pgsql \
  && apk add autoconf g++ make \
  && pecl install xdebug \
- && docker-php-ext-enable xdebug
+ && docker-php-ext-enable xdebug \
+ && apk add vim bash
 
