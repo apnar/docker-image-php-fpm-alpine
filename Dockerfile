@@ -1,4 +1,5 @@
 FROM php:fpm-alpine
+LABEL org.opencontainers.image.source=https://github.com/apnar/docker-image-php-fpm-alpine
 
 # install prerequisites
 RUN apk update \
